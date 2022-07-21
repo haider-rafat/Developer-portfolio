@@ -1,0 +1,99 @@
+ /* ----------------------------
+         COMMON CSS AREA 
+-------------------------------- */ 
+
+body {
+    margin: 0%;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.flaxible-container{
+    display:flex; 
+   margin-bottom: 80px;
+}
+
+.top-banner {
+    background: url(/images/img/top-banner.png) no-repeat;
+
+}
+
+h2 {
+    font-size: 50px;
+}
+
+span {
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    
+}
+.half-width img {
+    display: block;
+    margin-top:  50px; 
+    margin-right:150px;
+    padding-left: 50px;
+    max-width: 80%;
+   
+}
+.link-button{
+    background:linear-gradient(45deg, lightsalmon, tomato);
+    padding:  10px 40px;
+   
+    border-radius: 5px;
+}
+.link-button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+/* ----------------------------
+         DREAM  AREA 
+-------------------------------- */
+.dream-area{
+    margin: 20px 0;
+    padding: 20px 0;
+    background: url(/images/img/dream-bg.png) no-repeat right;
+}
+
+
+/* ----------------------------
+         EXPERIENCE AREA 
+-------------------------------- */
+.experience-area{
+    background-image: url(/images/img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-items{
+    width: 50%;
+    margin: 0 5%;
+    padding-left: 5%;
+    padding-right: 1%;
+    background: #fff;
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+}
+#full-stack{
+ border-left: 7px solid;
+ border-image: linear-gradient(180deg, lightsalmon, tomato);
+ border-image-slice: 1;
+ border-radius: 5px;
+}
+#baby-dev{
+ border-left: 7px solid;
+ border-image: linear-gradient(180deg, blue, cyan);
+ border-image-slice: 1;
+ border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 50px;
+}
